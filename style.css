@@ -1,0 +1,544 @@
+
+body{
+    background-image: url("ph/blue_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    height: 450px;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+
+.nav-l{
+    display: flex;
+    text-decoration: none;
+    color: #65676b;
+    font-size: 17px;
+    padding:10px 20px;
+    /* margin:0px 10px; */
+    border-radius: 8px;
+    /* border: 2px solid red; */
+    position: relative;
+    right: 150px;
+    top: 5px;
+    font-family: verdana;
+    flex-wrap: wrap;
+
+}
+.p1{
+     color:#65676b;
+    border-radius: 0px;
+    border-bottom: 4px solid purple;
+    height: 22px;
+}
+.p2{
+    display: flex;
+    /* border: 1px solid blue; */
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+   
+}
+.nav-r{
+    display: flex;
+    /* text-decoration: none; */
+    color: black;
+    font-size: 17px;
+    position: relative;
+    left: 70px;
+    top: 25px;
+    height: 75px;
+    font-family: verdana;
+    flex-wrap: wrap;
+
+    
+    
+}
+.p3{border: 1px solid white;
+    width: 75px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    
+
+}
+.sec1-l{
+    position: relative;
+    left: 125px;
+    top: 70px;
+    font-family: verdana;
+    flex-wrap: wrap;
+
+    
+}
+
+.A1{
+    text-decoration: none;
+    color:purple;
+    font-size: 50px;
+    font-family: verdana;
+}
+.p4{
+    color:rgb(72, 70, 70);
+    font-size: 50px;
+    font-family: verdana;
+}
+.p5{
+    font-size: 25px;
+    color:grey;
+    position: relative;
+    bottom: 30px;
+    font-family: verdana;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.sec-R{
+    display: flex;
+    position: relative;
+    top: 420px;
+    left: 50px;
+    font-family: verdana;
+    flex-wrap: wrap;
+
+    
+}
+.img1{
+    position: absolute;
+    right: 150px;
+    bottom: 120px;
+}
+.img2{
+    position: absolute;
+    right: 370px;
+    bottom: 300px;
+    
+}
+.img3{
+    position: absolute;
+    right: 300px;
+    bottom: 180px;
+}
+.img4{
+    position: absolute;
+    bottom: 40px;
+    right: 430px;
+
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 150px;
+    flex-wrap: wrap;
+
+}
+.img5{
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+.img6{
+    position: relative;
+    top: 523px;
+    left: 80px;
+
+}
+.img7{
+    position: relative;
+    top:950px;
+    right: 50px;
+}
+.img8{
+    position: relative;
+    left: 225px;
+    top: -2pc;
+    
+
+}
+.H1{
+    position: relative;
+    top: 300px;
+    left: 40px;
+    color: #65676b;
+    font-family: verdana;
+}
+.p6{
+    position: relative;
+    top: 290px;
+    right: -10px;
+    color: gray;
+    font-size: 20px;
+    font-family: verdana;
+    
+    
+}
+.p7{
+    position: relative;
+    top: 270px;
+    right: 10px;
+    color:gray;
+    font-size: 20px;
+    font-family: verdana;
+   
+
+}
+.H2{
+    position: relative;
+    top: 500px;
+    left: 70px;
+    color: #65676b;
+    font-family: verdana;
+
+}
+.p8{
+    position: relative;
+    top: 490px;
+    left: -10px;
+   
+    color: rgb(108, 108, 108);
+    font-size: 20px;
+    font-family: verdana;
+    
+
+
+}
+.H3{
+    position: relative;
+    top: 940px;
+    color: #65676b;
+    font-family: verdana;
+
+}
+.p9{
+    position: relative;
+    top: 480px;
+    right: -40px;
+    color: rgb(108, 108, 108);
+    font-size: 20px;
+    font-family: verdana;
+    
+
+}
+.p10{
+    position: relative;
+    top: 930px;
+    right: 160px;
+    color:  rgb(93, 92, 92);
+    font-size: 20px;
+    font-family: verdana;
+
+}
+.p11{
+    position: relative;
+    top: 920px;
+    right: 180px;
+    color:  rgb(93, 92, 92);
+    font-size: 20px;
+    font-family: verdana;
+    
+}
+.divv1{
+    position: relative;
+    left: 120px;
+    flex-wrap: wrap;
+
+    
+}
+.divv{
+    position: relative;
+    left: 76px;
+    flex-wrap: wrap;
+
+
+}
+.img9{
+    position: relative;
+    z-index: -1;
+}
+.p12{
+    position: absolute;
+    bottom: 180px;
+    left: 100px;
+    font-size: 25px;
+    color: white;
+    font-family: verdana;
+
+}
+.H4{
+    position: absolute;
+    bottom: 110px;
+    left: 100px;
+    font-size: 45px;
+    color: white;
+    font-family: verdana;
+
+}
+.divv2{
+    position: relative;
+    left: 76px;
+    bottom: 60px;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+    flex-wrap: wrap;
+
+}
+.img10{
+    position: relative;
+    bottom: -150px;
+    left: 90px;
+}
+.img11{
+    position: relative;
+    bottom: 50px;
+}
+.img12{
+    position: relative;
+    bottom: -170px;
+    right: 50px;
+}
+.divv3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px;
+    flex-wrap: wrap;
+
+}
+.H5{
+    position: relative;
+    left: 100px;
+    bottom: 175px;
+    font-family: verdana;
+    color: gray;
+    
+    
+}
+.H6{
+    position: relative;
+    
+    bottom: 175px;
+    right: 80px;
+    font-family: verdana;
+    color: gray;
+
+    
+}
+.divv4{
+    position: relative;
+    left: 580px;
+    top: 30px;
+    flex-wrap: wrap;
+
+}
+.H7{
+    position: relative;
+    font-size: 25px;
+    font-family: verdana;
+    color: rgb(92, 92, 92);
+}
+.p13{
+    position: relative;
+    font-size: 22px;
+    left: 10px;
+    font-family: verdana;
+    color: gray;
+    
+    
+}
+.p14{
+    position: relative;
+    font-size: 22px;
+    left: 12px;
+    bottom: 20px;
+    font-family: verdana;
+    color: gray;
+
+
+}
+.p15{
+    position: relative;
+    font-size: 22px;
+    left: 55px;
+    bottom: 40px;
+    font-family: verdana;
+    color: gray;
+
+
+}
+.section4{
+    position: relative;
+    top: 20px;
+    
+    height: 655px;
+    background-image: url("icon/Group 1131.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.img13{
+    position: relative;
+    top: 155px;
+    right: 60px;
+
+}
+.divv8{
+    display: flex;
+    justify-content:space-around;
+    width:550px;
+    position: absolute;
+    top: 560px;
+    right:900px ;
+    font-size: 25px;
+    color: white;
+    font-family: verdana;
+    flex-wrap: wrap;
+
+}
+.divv7{
+    display: flex;
+    justify-content:space-around;
+    width: 200px;
+    position: absolute;
+    top: 540px;
+    right: 1253px;
+    flex-wrap: wrap;
+
+
+}
+.divv6{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    flex-wrap: wrap;
+
+    
+}
+.divv9{
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 17px;
+    background-color: white;
+    position: relative;
+    top: 420px;
+    right: 55px;
+    flex-wrap: wrap;
+
+}
+.img14{
+    position: absolute;
+    top: 13px;
+    left: 9px;
+}
+.p16{
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    width: 200px;
+    font-family: verdana;
+    color: gray;
+
+}
+.p17{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 200px;
+    font-family: verdana;
+    color: rgb(96, 96, 96);
+
+}
+.divv10{
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 17px;
+    background-color: white;
+    position: relative;
+    top: 421px;
+    right: 120px;
+    flex-wrap: wrap;
+
+    
+
+}
+.img15{
+    position: absolute;
+    top: 20px;
+    left: 9px;
+
+}
+.p18{
+    font-size: 16px;
+    position: absolute;
+    left: 60px;
+    width: 200px;
+    top: 8px;
+    font-family: verdana;
+    color: gray;
+
+}
+.p19{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 200px;
+    font-family: verdana;
+    color: rgb(96, 96, 96);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
